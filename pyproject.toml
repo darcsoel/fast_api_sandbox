@@ -18,12 +18,14 @@ authors = ["Ross <rostikvunarchuk@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+fastapi = "^0.79.0"
 
 [tool.poetry.dev-dependencies]
-black = "^22.1.0"
+black = "^22.6.0"
 isort = "^5.10.1"
-pytest = "^7.0.0"
-pylint = "^2.13.2"
+pytest = "^7.1.2"
+pylint = "^2.14.4"
+uvicorn = "^0.18.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
