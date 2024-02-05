@@ -18,7 +18,7 @@ authors = ["Ross <rostikvunarchuk@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "^0.79.0"
+fastapi = "^0.109.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
